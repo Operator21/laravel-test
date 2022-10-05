@@ -1,0 +1,9 @@
+name: kamiwaza-laravel
+recipe: laravel
+config:
+  webroot: public
+  php: 8.1
+  services:
+    database:
+      type: mysql
+      portforward: 44800
